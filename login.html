@@ -1,30 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - StudentHub Portal</title>
+
     <link rel="stylesheet" href="style.css">
-    <title>StudentHub Login</title>
+
 </head>
+
+
 <body>
 
-    <h1>Student Login</h1>
 
-    <form action="Dashboard.html">
+<!-- ===== HEADER ===== -->
 
-        <label>Email:</label>
-        <br>
-        <input type="email" required>
+<header>
 
-        <br><br>
+   <div class="logo">
 
-        <label>Password:</label>
-        <br>
-        <input type="password" required>
+    <img src="images/college-logo.png"
+         alt="College Logo">
 
-        <br><br>
+    <div class="logo-text">
 
-        <input type="submit" value="Login">
+        <h2>StudentHub Portal</h2>
 
-    </form>
+        <p>Government Polytechnic for Girls, Ahmedabad</p>
+
+    </div>
+
+</div>
+
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+
+            <li>
+                <a href="About.html">About</a>
+            </li>
+
+
+            <li>
+                <a href="login.html" class="active">Login</a>
+            </li>
+
+
+            <li>
+                <a href="Signup.html">Sign Up</a>
+            </li>
+
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+
+
+<!-- ===== LOGIN SECTION ===== -->
+
+
+<main>
+
+
+<section class="login-section">
+
+
+    <div class="login-container">
+
+
+        <h1>Welcome Back</h1>
+
+
+        <p>
+            Login to access your StudentHub academic dashboard.
+        </p>
+
+
+
+        <form>
+
+
+            <div class="form-group">
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input 
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required>
+
+            </div>
+
+
+
+
+            <div class="form-group">
+
+                <label for="password">
+                    Password
+                </label>
+
+
+                <input 
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required>
+
+            </div>
+
+
+
+
+            <button type="submit">
+                Login
+            </button>
+
+
+
+        </form>
+
+
+
+        <p>
+            Don't have an account?
+            <a href="Signup.html">
+                Create Account
+            </a>
+        </p>
+
+
+
+    </div>
+
+
+</section>
+
+
+</main>
+
+
+
+
+
+<!-- ===== FOOTER ===== -->
+
+
+<footer>
+
+<p>
+© 2026 StudentHub Portal | Developed by Aayushi Gohil
+</p>
+
+</footer>
+
+
 
 </body>
+
 </html>
