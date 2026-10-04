@@ -1,0 +1,339 @@
+/* =========================================
+   GENERAL
+========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #e0f2fe);
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #1f2937;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.form-card {
+    background: white;
+    border-radius: 18px;
+    padding: 35px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #1e3a8a;
+}
+
+.form-header p {
+    color: #64748b;
+    font-size: 15px;
+}
+
+
+/* =========================================
+   FORM GROUP
+========================================= */
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label,
+.gender-group legend {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+.form-group label span,
+.gender-group legend span {
+    color: #dc2626;
+}
+
+
+/* =========================================
+   INPUTS
+========================================= */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 13px 14px;
+    border: 2px solid #dbe2ea;
+    border-radius: 9px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+    background: #ffffff;
+}
+
+input:focus,
+select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* =========================================
+   ERROR INPUT
+========================================= */
+
+.input-error {
+    border-color: #dc2626 !important;
+    background: #fff7f7 !important;
+}
+
+
+/* =========================================
+   SUCCESS INPUT
+========================================= */
+
+.input-success {
+    border-color: #16a34a !important;
+}
+
+
+/* =========================================
+   ERROR MESSAGE
+========================================= */
+
+.error {
+    display: block;
+    min-height: 18px;
+    margin-top: 6px;
+    color: #dc2626;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* =========================================
+   PASSWORD STRENGTH
+========================================= */
+
+.strength-container {
+    height: 8px;
+    background: #e5e7eb;
+    border-radius: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.strength-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.strength-text {
+    font-size: 13px;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   PASSWORD STRENGTH STATES
+========================================= */
+
+.strength-weak {
+    background: #dc2626;
+}
+
+.strength-medium {
+    background: #f59e0b;
+}
+
+.strength-strong {
+    background: #16a34a;
+}
+
+
+/* =========================================
+   GENDER
+========================================= */
+
+.gender-group {
+    border: none;
+    padding: 0;
+}
+
+.radio-options {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.radio-options label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.radio-options input {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   TERMS
+========================================= */
+
+.terms-group {
+    margin: 10px 0 25px;
+}
+
+.terms-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.terms-label input {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.terms-label a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.terms-label a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.submit-btn,
+.reset-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn {
+    background: #2563eb;
+    color: white;
+}
+
+.submit-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.reset-btn {
+    margin-top: 10px;
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.reset-btn:hover {
+    background: #cbd5e1;
+}
+
+
+/* =========================================
+   SUCCESS MESSAGE
+========================================= */
+
+.success-message {
+    display: none;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+button:focus,
+input:focus,
+select:focus {
+    outline: 3px solid rgba(37, 99, 235, 0.25);
+    outline-offset: 2px;
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    .form-card {
+        padding: 22px;
+    }
+
+    .form-header h1 {
+        font-size: 26px;
+    }
+
+    .radio-options {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
