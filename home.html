@@ -2,282 +2,252 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - StudentHub</title>
 
-<title>Student Dashboard - StudentHub</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <!-- One CSS file for the complete project -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
+    <!-- ==============================
+         HEADER
+         ============================== -->
 
-<!-- ===== HEADER ===== -->
+    <header>
 
-<div class="logo">
+        <div class="logo">
 
-    <img src="images/college-logo.png"
-         alt="College Logo">
+            <img src="images/college-logo.png"
+                 alt="College Logo">
 
-    <div class="logo-text">
+            <div class="logo-text">
 
-        <h2>StudentHub Portal</h2>
+                <h2>StudentHub Portal</h2>
 
-        <p>Government Polytechnic for Girls, Ahmedabad</p>
+                <p>
+                    Charotar University of Science And Technology
+                </p>
 
-    </div>
+            </div>
 
-</div>
+        </div>
 
 
-<nav>
+        <!-- Hamburger Button -->
 
-<ul>
+        <button class="hamburger"
+                onclick="toggleMenu()">
+            ☰
+        </button>
 
-<li>
-<a href="home.html" class="active">Dashboard</a>
-</li>
 
+        <!-- Navigation -->
 
-<li>
-<a href="Assignments.html">Assignments</a>
-</li>
+        <nav>
 
+            <ul id="navMenu">
 
-<li>
-<a href="Attentence.html">Attendance</a>
-</li>
+                <li>
+                    <a href="home.html" class="active">
+                        Dashboard
+                    </a>
+                </li>
 
+                <li>
+                    <a href="Assignments.html">
+                        Assignments
+                    </a>
+                </li>
 
-<li>
-<a href="StudyMaterial.html">Study Material</a>
-</li>
+                <li>
+                    <a href="Attentence.html">
+                        Attendance
+                    </a>
+                </li>
 
+                <li>
+                    <a href="StudyMaterial.html">
+                        Study Material
+                    </a>
+                </li>
 
-<li>
-<a href="Notice.html">Notices</a>
-</li>
+                <li>
+                    <a href="Notice.html">
+                        Notices
+                    </a>
+                </li>
 
+                <li>
+                    <a href="Profile.html">
+                        Profile
+                    </a>
+                </li>
 
-<li>
-<a href="Profile.html">Profile</a>
-</li>
+                <li>
+                    <a href="Logout.html">
+                        Logout
+                    </a>
+                </li>
 
+            </ul>
 
-<li>
-<a href="Logout.html">Logout</a>
-</li>
+        </nav>
+        <button id="themeBtn" class="theme-btn" onclick="toggleTheme()">
+    Dark Mode
+</button>
+    </header>
 
 
-</ul>
+    <!-- ==============================
+         MAIN CONTENT
+         ============================== -->
 
-</nav>
+    <main>
 
-</header>
+        <!-- Dashboard Hero -->
 
+        <section class="dashboard-hero">
 
+            <div class="dashboard-text">
 
+                <h1>
+                    Welcome, Student
+                </h1>
 
+                <p>
+                    Manage your academic activities,
+                    assignments, attendance, study materials
+                    and college updates from one place.
+                </p>
 
-<!-- ===== MAIN ===== -->
+            </div>
 
 
-<main>
+            <div class="dashboard-image">
 
+                <img src="images/dashboard.jpg"
+                     alt="Student dashboard">
 
-<section class="dashboard-hero">
+            </div>
 
+        </section>
 
-<div class="dashboard-text">
 
+        <!-- ==============================
+             ACADEMIC OVERVIEW
+             ============================== -->
 
-<h1>
-Welcome, Student 👋
-</h1>
+        <section class="stats-section">
 
+            <h2>
+                Academic Overview
+            </h2>
 
-<p>
-Manage your academic activities, assignments,
-attendance, study materials and college updates
-from one place.
-</p>
 
+            <div class="stats-container">
 
-</div>
+                <article class="card">
 
+                    <h3>
+                        Study Materials
+                    </h3>
 
+                    <p>
+                        50+ resources available
+                    </p>
 
+                </article>
 
-<div class="dashboard-image">
 
+                <article class="card">
 
-<img src="images/dashboard.jpg"
-alt="Student dashboard">
+                    <h3>
+                        Assignments
+                    </h3>
 
+                    <p>
+                        5 pending assignments
+                    </p>
 
-</div>
+                </article>
 
 
+                <article class="card">
 
-</section>
+                    <h3>
+                        Attendance
+                    </h3>
 
+                    <p>
+                        85% attendance
+                    </p>
 
+                </article>
 
 
+                <article class="card">
 
-<!-- ===== QUICK STATS ===== -->
+                    <h3>
+                        Notices
+                    </h3>
 
+                    <p>
+                        3 new announcements
+                    </p>
 
-<section class="stats-section">
+                </article>
 
+            </div>
 
-<h2>
-Academic Overview
-</h2>
+        </section>
 
 
+        <!-- ==============================
+             RECENT ACTIVITY
+             ============================== -->
 
-<div class="stats-container">
+        <section class="activity-section">
 
+            <h2>
+                Recent Activity
+            </h2>
 
-<article class="card">
 
-<h3>
-📚
-</h3>
+            <ul>
 
-<h3>
-Study Materials
-</h3>
+                <li>
+                    New assignment uploaded for Web Development
+                </li>
 
-<p>
-50+ resources available
-</p>
+                <li>
+                    Operating System notes added
+                </li>
 
-</article>
+                <li>
+                    Exam timetable notification received
+                </li>
 
+            </ul>
 
+        </section>
 
-<article class="card">
+    </main>
+    <footer>
 
-<h3>
-📝
-</h3>
+        <p>
+            © 2026 StudentHub Portal | Developed by Aayushi Gohil
+        </p>
 
-<h3>
-Assignments
-</h3>
+    </footer>
 
-<p>
-5 pending assignments
-</p>
 
-</article>
+    <!-- JavaScript -->
 
-
-
-
-<article class="card">
-
-<h3>
-📅
-</h3>
-
-<h3>
-Attendance
-</h3>
-
-<p>
-85% attendance
-</p>
-
-</article>
-
-
-
-
-<article class="card">
-
-<h3>
-📢
-</h3>
-
-<h3>
-Notices
-</h3>
-
-<p>
-3 new announcements
-</p>
-
-</article>
-
-
-</div>
-
-
-</section>
-
-
-
-
-<!-- ===== RECENT ACTIVITY ===== -->
-
-
-<section class="activity-section">
-
-
-<h2>
-Recent Activity
-</h2>
-
-
-<ul>
-
-<li>
-New assignment uploaded for Web Development
-</li>
-
-
-<li>
-Operating System notes added
-</li>
-
-
-<li>
-Exam timetable notification received
-</li>
-
-
-</ul>
-
-
-</section>
-
-
-
-</main>
-
-
-
-
-
-<!-- ===== FOOTER ===== -->
-
-
-<footer>
-
-<p>
-© 2026 StudentHub Portal | Developed by Aayushi Gohil
-</p>
-
-</footer>
-
-
+    <script src="script.js"></script>
 
 </body>
 

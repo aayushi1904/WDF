@@ -1,111 +1,373 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>StudentHub Portal</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ===== HEADER ===== -->
+    <div id="notification" class="notification">
+         Welcome to StudentHub Portal!
+        <button onclick="closeNotification()">×</button>
+    </div>
     <header>
 
-       <div class="logo">
+        <div class="logo">
 
-    <img src="images/college-logo.png"
-         alt="College Logo">
+            <img src="images/college-logo.png" alt="StudentHub Logo">
 
-    <div class="logo-text">
+            <div class="logo-text">
 
-        <h2>StudentHub Portal</h2>
+                <h2>StudentHub Portal</h2>
 
-        <p>Government Polytechnic for Girls, Ahmedabad</p>
+                <p>
+                    Charotar University of Science And Technology
+                </p>
 
-    </div>
+            </div>
 
-</div>
+        </div>
+      <button 
+    class="hamburger" 
+    onclick="toggleMenu()" 
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="navMenu">
+    ☰
+</button>
 
         <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="Signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
 
+            <ul id="navMenu">
+
+                <li>
+                    <a href="index.html" class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="About.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="login.html">
+                        Login
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Signup.html">
+                        Sign Up
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+        <button id="themeBtn" class="theme-btn" onclick="toggleTheme()">
+    Dark Mode
+</button>
     </header>
 
-
     <main>
-
         <section class="hero">
 
             <div class="hero-text">
 
-                <h1>Welcome to StudentHub Portal</h1>
+                <h1>
+                    Welcome to StudentHub Portal
+                </h1>
 
                 <p>
+
                     StudentHub is an academic portal where students can
                     manage assignments, attendance, study materials,
                     notices and profile information from one place.
+
                 </p>
+
 
                 <div class="buttons">
 
-                    <a href="login.html" class="btn">Login</a>
+                    <a href="login.html" class="btn">
+                        Login
+                    </a>
 
-                    <a href="Signup.html" class="btn secondary-btn">Sign Up</a>
+                    <a href="Signup.html"
+                       class="btn secondary-btn">
 
-                
+                        Sign Up
+
+                    </a>
+
+                    <button onclick="openModal()">
+                        View Notice
+                    </button>
+
+                </div>
+
+            </div>
+
         </section>
-
-
         <section class="features">
 
             <h2>Our Features</h2>
 
+
             <div class="feature-container">
 
-                <article class="card">
-                    <h3>Study Material</h3>
-                    <p>Access lecture notes, PDFs and study resources anytime.</p>
-                </article>
 
                 <article class="card">
-                    <h3>Assignments</h3>
-                    <p>View and manage your assignments in one place.</p>
+
+                    <h3>
+                         Study Material
+                    </h3>
+
+                    <p>
+                        Access lecture notes, PDFs and study
+                        resources anytime.
+                    </p>
+
                 </article>
 
-                <article class="card">
-                    <h3>Attendance</h3>
-                    <p>Track your attendance percentage easily.</p>
-                </article>
 
                 <article class="card">
-                    <h3>Notices</h3>
-                    <p>Stay updated with college announcements.</p>
+
+                    <h3>
+                         Assignments
+                    </h3>
+
+                    <p>
+                        View and manage your assignments
+                        in one place.
+                    </p>
+
                 </article>
+
+
+                <article class="card">
+
+                    <h3>
+                         Attendance
+                    </h3>
+
+                    <p>
+                        Track your attendance percentage easily.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>
+                         Notices
+                    </h3>
+                    <p>
+                        Stay updated with college announcements.
+                    </p>
+                </article>
+
 
             </div>
 
         </section>
 
+        <section class="slider-section">
+
+            <h2>
+                StudentHub Updates
+            </h2>
+
+            <div class="slider">
+
+
+                <div class="slide active">
+
+                    <h3>
+                        Assignment Updates
+                    </h3>
+
+                    <p>
+                        Check your latest assignments
+                        and submission deadlines.
+                    </p>
+
+                </div>
+
+
+                <div class="slide">
+
+                    <h3>
+                         College Events
+                    </h3>
+
+                    <p>
+                        Stay updated with upcoming
+                        college events and activities.
+                    </p>
+
+                </div>
+
+
+                <div class="slide">
+
+                    <h3>
+                         Important Notices
+                    </h3>
+
+                    <p>
+                        Never miss important college
+                        announcements.
+                    </p>
+
+                </div>
+
+
+                <button
+                    class="slider-btn prev"
+                    onclick="changeSlide(-1)">
+
+                    ❮
+
+                </button>
+
+
+                <button
+                    class="slider-btn next"
+                    onclick="changeSlide(1)">
+
+                    ❯
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FAQ SECTION
+        ========================== -->
+
+        <section class="faq-section" id="faq">
+
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+
+            <div class="faq">
+
+
+                <button class="faq-question">
+
+                    What is StudentHub?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+
+                    <p>
+
+                        StudentHub is an academic portal
+                        that helps students manage study
+                        materials, assignments, attendance
+                        and notices.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="faq">
+
+
+                <button class="faq-question">
+
+                    How can I register?
+
+                    <span>+</span>
+
+                </button>
+
+
+                <div class="faq-answer">
+
+                    <p>
+
+                        Click on the Sign Up option in the
+                        navigation menu and complete the
+                        registration form.
+
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="faq">
+                <button class="faq-question">
+                    Can I use Dark Mode?
+                    <span>+</span>
+                </button>
+                <div class="faq-answer">
+
+                    <p>
+
+                        Yes. Click the Dark Mode button
+                        at the top of the page. Your
+                        preference is saved automatically.
+
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
     </main>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button
+                class="close-btn"
+                onclick="closeModal()">
 
+                ×
+            </button>
+            <h2>
+                 Important Notice
+            </h2>
+            <p>
+                Internal examinations will begin next week.
+                Students are requested to check the examination
+                schedule and prepare accordingly.
+            </p>
+            <button onclick="closeModal()">
+                Okay
+            </button>
+        </div>
+    </div>
     <footer>
-
         <p>
-            © 2026 StudentHub Portal | Developed by Aayushi Gohil
+            © 2026 StudentHub Portal |
+            Developed by Aayushi Gohil
+
         </p>
 
     </footer>
+    <script src="script.js"></script>
 
 </body>
-
 </html>

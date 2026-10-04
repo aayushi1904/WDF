@@ -1,269 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Attendance - StudentHub</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
-
-
 <body>
-
-
 <header>
-
+    <script src="script.js"></script>
 <div class="logo">
-
     <img src="images/college-logo.png"
          alt="College Logo">
-
     <div class="logo-text">
-
         <h2>StudentHub Portal</h2>
-
-        <p>Government Polytechnic for Girls, Ahmedabad</p>
-
+        <p>Charotar University Of Science and Technology</p>
     </div>
-
 </div>
-
 <nav>
-
 <ul>
-
 <li>
 <a href="home.html">Dashboard</a>
 </li>
-
-
 <li>
 <a href="Assignments.html">Assignments</a>
 </li>
-
-
 <li>
 <a href="Attendance.html" class="active">Attendance</a>
 </li>
-
-
 <li>
 <a href="StudyMaterial.html">Study Material</a>
 </li>
-
-
 <li>
 <a href="Notice.html">Notices</a>
 </li>
-
-
 <li>
 <a href="Profile.html">Profile</a>
 </li>
-
-
 <li>
 <a href="Logout.html">Logout</a>
 </li>
-
-
 </ul>
-
 </nav>
-
+<button id="themeBtn" class="theme-btn" onclick="toggleTheme()">
+    Dark Mode
+</button>
 </header>
-
-
-
-
-<!-- ===== MAIN ===== -->
-
 <main>
-
-
 <section class="page-banner">
-
 <h1>
 Attendance Tracker
 </h1>
-
 <p>
 Monitor your attendance record easily.
 </p>
-
 </section>
-
-
-
-
 <section class="attendance-overview">
-
-
 <div class="attendance-card">
-
 <h2>
 Overall Attendance
 </h2>
-
 <h1>
 85%
 </h1>
-
 <p>
 Good attendance performance
 </p>
-
-
 </div>
-
-
 </section>
-
-
-
-
-
 <section class="attendance-table">
-
-
 <h2>
 Subject Wise Attendance
 </h2>
-
-
-
 <table>
-
-
 <thead>
-
 <tr>
-
 <th>
 Subject
 </th>
-
-
 <th>
 Total Classes
 </th>
-
-
 <th>
 Attended
 </th>
-
-
 <th>
 Percentage
 </th>
-
 </tr>
-
 </thead>
-
-
-
 <tbody>
-
-
 <tr>
-
 <td>
 Web Development
 </td>
-
 <td>
 40
 </td>
-
 <td>
 36
 </td>
-
 <td>
 90%
 </td>
-
 </tr>
-
-
-
 <tr>
-
 <td>
 Database Management
 </td>
-
 <td>
 35
 </td>
-
 <td>
 30
 </td>
-
 <td>
 86%
 </td>
-
 </tr>
-
-
-
-
 <tr>
-
 <td>
 Computer Network
 </td>
-
 <td>
 45
 </td>
-
 <td>
 34
 </td>
-
 <td>
 75%
 </td>
-
 </tr>
-
-
-
 </tbody>
-
-
 </table>
-
-
 </section>
-
-
-
 </main>
-
-
-
-
 <footer>
-
 <p>
 © 2026 StudentHub Portal | Developed by Aayushi Gohil
 </p>
-
 </footer>
-
-
-
-</body>
-
-</html>
+<script src="script.js"></script>
+</body></html>

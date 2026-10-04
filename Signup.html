@@ -1,287 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Sign Up - StudentHub Portal</title>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
-
-
 <body>
-
-
-<!-- ===== HEADER ===== -->
-
 <header>
-
    <div class="logo">
-
     <img src="images/college-logo.png"
          alt="College Logo">
-
     <div class="logo-text">
-
         <h2>StudentHub Portal</h2>
-
-        <p>Government Polytechnic for Girls, Ahmedabad</p>
-
+        <p>Charotar University Of Science And Technology</p>
     </div>
-
 </div>
-
-
     <nav>
-
         <ul>
-
             <li>
                 <a href="index.html">Home</a>
             </li>
-
-
             <li>
                 <a href="About.html">About</a>
             </li>
-
-
             <li>
                 <a href="login.html">Login</a>
             </li>
-
-
             <li>
                 <a href="Signup.html" class="active">Sign Up</a>
             </li>
-
-
         </ul>
-
     </nav>
-
-
+    <button id="themeBtn" class="theme-btn" onclick="toggleTheme()">
+    Dark Mode
+</button>
 </header>
-
-
 <main>
-
-
 <section class="signup-section">
-
-
 <div class="signup-container">
-
-
 <h1>Create Account</h1>
-
-
 <p>
 Register yourself to access the StudentHub academic portal.
 </p>
-
-
-
-
 <form>
-
-
 <div class="form-group">
-
 <label for="name">
 Full Name
 </label>
-
 <input 
 type="text"
 id="name"
 placeholder="Enter your full name"
 required>
-
 </div>
-
-
-
-
 <div class="form-group">
-
 <label for="email">
 Email Address
 </label>
-
 <input 
 type="email"
 id="email"
 placeholder="Enter your email"
 required>
-
 </div>
-
-
-
-
 <div class="form-group">
-
 <label for="mobile">
 Mobile Number
 </label>
-
 <input 
 type="tel"
 id="mobile"
 placeholder="Enter your mobile number"
 required>
-
 </div>
-
-
-
-
 <div class="form-group">
-
 <label for="course">
 Select Course
 </label>
-
-
 <select id="course">
-
-
 <option>
 Select your course
 </option>
-
-
 <option>
 Information Technology
 </option>
-
-
 <option>
 Computer Engineering
 </option>
-
-
 <option>
 Artificial Intelligence
 </option>
-
-
 <option>
 Data Science
 </option>
 
 
 </select>
-
-
 </div>
-
-
-
-
-
 <div class="form-group">
-
 <label>
 Gender
 </label>
-
-
 <div>
-
 <input type="radio" name="gender">
 Male
-
-
 <input type="radio" name="gender">
 Female
-
-
 <input type="radio" name="gender">
 Other
-
 </div>
-
-
 </div>
-
-
-
-
-
 <div class="form-group">
-
 <label for="password">
 Password
 </label>
-
-
 <input 
 type="password"
 id="password"
 placeholder="Create password"
 required>
-
-
 </div>
-
-
-
-
 <button type="submit">
 Create Account
 </button>
-
-
-
 </form>
-
-
-
-
 <p>
-
 Already have an account?
-
 <a href="login.html">
 Login Here
 </a>
-
-
 </p>
-
-
-
 </div>
-
-
 </section>
-
-
 </main>
-
-
-
-
-
-<!-- ===== FOOTER ===== -->
-
-
 <footer>
-
 <p>
 © 2026 StudentHub Portal | Developed by Aayushi Gohil
 </p>
-
 </footer>
-
-
-
+<script src="script.js"></script>
 </body>
-
 </html>
