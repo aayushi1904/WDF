@@ -1,0 +1,107 @@
+[
+    {
+        "id": "D26CS101",
+        "name": "Aarav Patel",
+        "department": "CE",
+        "semester": 5,
+        "marks": 92
+    },
+    {
+        "id": "D26CS102",
+        "name": "Diya Shah",
+        "department": "IT",
+        "semester": 5,
+        "marks": 88
+    },
+    {
+        "id": "D26CS103",
+        "name": "Riya Mehta",
+        "department": "CE",
+        "semester": 5,
+        "marks": 95
+    },
+    {
+        "id": "D26CS104",
+        "name": "Kunal Desai",
+        "department": "IT",
+        "semester": 5,
+        "marks": 81
+    },
+    {
+        "id": "D26CS105",
+        "name": "Meera Joshi",
+        "department": "CSE",
+        "semester": 5,
+        "marks": 90
+    },
+    {
+        "id": "D26CS106",
+        "name": "Dev Patel",
+        "department": "CE",
+        "semester": 5,
+        "marks": 85
+    },
+    {
+        "id": "D26CS107",
+        "name": "Isha Shah",
+        "department": "CSE",
+        "semester": 5,
+        "marks": 94
+    },
+    {
+        "id": "D26CS108",
+        "name": "Harsh Mehta",
+        "department": "IT",
+        "semester": 5,
+        "marks": 79
+    },
+    {
+        "id": "D26CS109",
+        "name": "Anaya Patel",
+        "department": "CE",
+        "semester": 5,
+        "marks": 91
+    },
+    {
+        "id": "D26CS110",
+        "name": "Yash Desai",
+        "department": "CSE",
+        "semester": 5,
+        "marks": 87
+    },
+    {
+        "id": "D26CS111",
+        "name": "Krisha Shah",
+        "department": "IT",
+        "semester": 5,
+        "marks": 96
+    },
+    {
+        "id": "D26CS112",
+        "name": "Dhruv Mehta",
+        "department": "CE",
+        "semester": 5,
+        "marks": 83
+    },
+    {
+        "id": "D26CS113",
+        "name": "Mahi Patel",
+        "department": "CSE",
+        "semester": 5,
+        "marks": 89
+    },
+    {
+        "id": "D26CS114",
+        "name": "Vivaan Shah",
+        "department": "IT",
+        "semester": 5,
+        "marks": 93
+    },
+    {
+        "id": "D26CS115",
+        "name": "Nisha Desai",
+        "department": "CE",
+        "semester": 5,
+        "marks": 86
+    }
+]

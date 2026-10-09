@@ -1,0 +1,77 @@
+[
+    {
+        "question": "How do I access my course materials?",
+        "answer": "Open the Study Material section from your StudentHub dashboard to browse notes and resources by subject.",
+        "category": "Academics"
+    },
+    {
+        "question": "Where can I check my attendance?",
+        "answer": "Select Attendance from the dashboard navigation to view your attendance records.",
+        "category": "Academics"
+    },
+    {
+        "question": "How can I view upcoming assignments?",
+        "answer": "Open the Assignments section to see assigned work and its due dates.",
+        "category": "Academics"
+    },
+    {
+        "question": "Where are college events listed?",
+        "answer": "Use the Events tab in the Data Explorer to browse upcoming college events.",
+        "category": "Events"
+    },
+    {
+        "question": "How do I update my profile information?",
+        "answer": "Open Profile from the student dashboard and update the available details there.",
+        "category": "Account"
+    },
+    {
+        "question": "What should I do if I forget my password?",
+        "answer": "Use the password recovery option on the login page or contact the college support team.",
+        "category": "Account"
+    },
+    {
+        "question": "How do I sign in to StudentHub?",
+        "answer": "Choose Login from the portal navigation and enter your registered account credentials.",
+        "category": "Account"
+    },
+    {
+        "question": "Can I use StudentHub on a mobile device?",
+        "answer": "Yes. StudentHub pages are designed to adapt to mobile, tablet, and desktop screens.",
+        "category": "Portal"
+    },
+    {
+        "question": "How do I find a student record?",
+        "answer": "Open the Students tab in Data Explorer and enter a name, student ID, or other detail in Search.",
+        "category": "Students"
+    },
+    {
+        "question": "Can I filter the student list by department?",
+        "answer": "Yes. Select a department in the Filter control on the Students tab.",
+        "category": "Students"
+    },
+    {
+        "question": "How do I sort students by marks?",
+        "answer": "Choose Marks (high to low) or Marks (low to high) from the Sort control.",
+        "category": "Students"
+    },
+    {
+        "question": "How many student records appear on each page?",
+        "answer": "The Data Explorer displays up to six records per page. Use the pagination buttons to move between pages.",
+        "category": "Students"
+    },
+    {
+        "question": "How can I change the portal appearance?",
+        "answer": "Use the Dark Mode or Light Mode button in the portal header to switch themes.",
+        "category": "Portal"
+    },
+    {
+        "question": "Where can I read college notices?",
+        "answer": "Select Notices from the student dashboard navigation to read current announcements.",
+        "category": "Portal"
+    },
+    {
+        "question": "Who should I contact for technical help?",
+        "answer": "Contact your college's designated StudentHub support team and include a description of the issue.",
+        "category": "Support"
+    }
+]

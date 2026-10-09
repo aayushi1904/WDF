@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "Technical Symposium",
+        "date": "2026-10-10",
+        "venue": "CSPIT Auditorium",
+        "category": "Technical",
+        "description": "A technical event featuring student projects and presentations."
+    },
+    {
+        "id": 2,
+        "title": "Coding Contest",
+        "date": "2026-10-12",
+        "venue": "Computer Lab 1",
+        "category": "Technical",
+        "description": "Competitive programming contest for students."
+    },
+    {
+        "id": 3,
+        "title": "Cultural Fest",
+        "date": "2026-10-15",
+        "venue": "University Ground",
+        "category": "Cultural",
+        "description": "Annual cultural celebration with performances and activities."
+    },
+    {
+        "id": 4,
+        "title": "Sports Day",
+        "date": "2026-10-18",
+        "venue": "Sports Complex",
+        "category": "Sports",
+        "description": "Inter-department sports competitions."
+    },
+    {
+        "id": 5,
+        "title": "AI Workshop",
+        "date": "2026-10-20",
+        "venue": "Seminar Hall",
+        "category": "Workshop",
+        "description": "Introduction to artificial intelligence and machine learning."
+    },
+    {
+        "id": 6,
+        "title": "Web Development Workshop",
+        "date": "2026-10-22",
+        "venue": "Lab 3",
+        "category": "Workshop",
+        "description": "Hands-on workshop on modern web development."
+    },
+    {
+        "id": 7,
+        "title": "Photography Competition",
+        "date": "2026-10-24",
+        "venue": "Main Block",
+        "category": "Cultural",
+        "description": "Photography competition for interested students."
+    },
+    {
+        "id": 8,
+        "title": "Hackathon",
+        "date": "2026-10-26",
+        "venue": "Innovation Lab",
+        "category": "Technical",
+        "description": "Build innovative solutions to real-world problems."
+    },
+    {
+        "id": 9,
+        "title": "Career Guidance Seminar",
+        "date": "2026-10-28",
+        "venue": "Seminar Hall",
+        "category": "Seminar",
+        "description": "Career guidance session for students."
+    },
+    {
+        "id": 10,
+        "title": "Robotics Workshop",
+        "date": "2026-10-30",
+        "venue": "Robotics Lab",
+        "category": "Workshop",
+        "description": "Practical introduction to robotics and automation."
+    },
+    {
+        "id": 11,
+        "title": "Quiz Competition",
+        "date": "2026-11-02",
+        "venue": "Room 205",
+        "category": "Academic",
+        "description": "General knowledge and technical quiz competition."
+    },
+    {
+        "id": 12,
+        "title": "Entrepreneurship Talk",
+        "date": "2026-11-04",
+        "venue": "Auditorium",
+        "category": "Seminar",
+        "description": "Interactive session about startups and entrepreneurship."
+    },
+    {
+        "id": 13,
+        "title": "Tree Plantation Drive",
+        "date": "2026-11-06",
+        "venue": "University Campus",
+        "category": "Social",
+        "description": "Environmental awareness and tree plantation activity."
+    },
+    {
+        "id": 14,
+        "title": "Project Exhibition",
+        "date": "2026-11-08",
+        "venue": "CSPIT Exhibition Hall",
+        "category": "Technical",
+        "description": "Students showcase their academic projects."
+    },
+    {
+        "id": 15,
+        "title": "Music Evening",
+        "date": "2026-11-10",
+        "venue": "University Ground",
+        "category": "Cultural",
+        "description": "An evening featuring student musical performances."
+    }
+]
